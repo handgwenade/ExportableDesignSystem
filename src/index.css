@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, monospace;
+  --font-inter: 'Inter', system-ui, sans-serif;
+
+  /* Brand color tokens */
+  --color-dark: #060612;
+  --color-dark-secondary: #090a0d;
+  --color-dark-panel: #24262a;
+  --color-dark-border: #2d3038;
+
+  --color-light: #f8f9fa;
+  --color-light-secondary: #eef1f5;
+  --color-light-border: #e4e7ec;
+  --color-light-muted: #cbd2dc;
+
+  --color-text-primary: #111827;
+  --color-text-secondary: #18283e;
+  --color-text-muted: #667085;
+  --color-text-subtle: #5b6b83;
+  --color-text-faint: #69686e;
+
+  --color-blue: #007aff;
+  --color-blue-light: #007fff;
+  --color-blue-vivid: #007ffa;
+  --color-blue-teal: #007fad;
+  --color-blue-teal-bright: #009cde;
+  --color-blue-navy: #1d49ac;
+  --color-blue-deep: #1b4894;
+  --color-blue-deeper: #184067;
+
+  --color-error: #d32323;
+  --color-error-google: #ea4335;
+}
+
+html {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: var(--color-text-primary);
+  background: #f8f9fa;
+}
+
+/* Hide scrollbars by default, show on scroll */
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}

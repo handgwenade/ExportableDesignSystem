@@ -1,0 +1,10 @@
+{
+  "description": "Streamline your design process with an exportable design system tailored for Claude, enhancing collaboration and consistency across projects.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
